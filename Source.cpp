@@ -212,5 +212,8 @@ int main() {
     std::cout << MAGENTA << "Total Storage:  " << RED << (totalStorage / (1024 * 1024 * 1024)) << " GB" << RESET << std::endl;
     std::cout << YELLOW << "Free Storage:   " << GREEN << (freeStorage / (1024 * 1024 * 1024)) << " GB" << RESET << std::endl;
 
+	std::cout << std::endl;
+    system("pause");
+
     return 0;
 }
